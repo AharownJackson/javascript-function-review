@@ -8,7 +8,7 @@ let practiceQuestions = [
     'Write a function named getLowestNumber that takes in 3 arguments. If all 3 inputs are numbers or numeric strings, then return the lowest number. If any of the 3 inputs is missing or non-numeric, then return false.',
     'Write a function named addStringLengths that takes in two inputs. If both inputs provided are strings, addStringLengths returns the sum after adding the length (number of characters) of both strings. If either or both inputs are not strings, return false.',
     'Write a function named subtract that takes in two inputs. If both inputs provided are numeric or numeric strings, subtract will return the difference when the second input is subtracted from the first input. If one or both inputs is not numeric or numeric strings, subtract should return false.',
-    'Write a function named calculateChange that takes in two inputs, totalPaid and totalCost. If both inputs are numeric or numeric strings, calculateChange should return the change after subtracting the cost from the amount paid. The return should be in $x.xx format as a string Note: it should return with two decial places. If either or both inputs are not numeric or numeric strings, calculateChange should return false.',
+    'Write a function named calculateChange that takes in two inputs, totalPaid and totalCost. If both inputs are numeric or numeric strings, calculateChange should return the change after subtracting the cost from the amount paid. The return should be in $x.xx format as a string Note: it should return with two decimal places. If either or both inputs are not numeric or numeric strings, calculateChange should return false.',
     'Define a function named isANumber that takes in a value and returns true if the input is numeric, or false if the input is not numeric. Numeric strings should not be considered as numbers in this function, and should return false.',
     'Define a function named increment that takes in an input and adds 1 to it if the input is numeric. If the input is not numeric, then return false.',
     'Define a function named decrement. If the provided input is numeric, the function should subtract 1 and return the result. If the input is not numeric, decrement should return false.',
@@ -40,6 +40,35 @@ let practiceQuestions = [
     'Define a function named findLongestString that accepts two string arguments and returns the string with the greatest length. If only one argument is a string, return that argument. If neither arguments are strings, return and empty string.',
     'Define a function named isFactor that accepts two number arguments and returns true if the first argument is a factor of the second argument. It should return false if either argument is null or not a number. Also return null if the first argument is 0 (zero).'
 ]
+
+// let questionTests = [
+//     'describe(\'lowerCase\', function () {\n' +
+//     '\n' +
+//     '    describe("Core Functionality", function () {\n' +
+//     '\n' +
+//     '        it(\'should be a declared function\', function () {\n' +
+//     '            expect(lowerCase).toBeDefined();\n' +
+//     '        });\n' +
+//     '        it(`should return "${randomName.toLowerCase()}" when passed the string "${randomName}"`, function () {\n' +
+//     '            expect(lowerCase(randomName)).toBe(randomName.toLowerCase());\n' +
+//     '        });\n' +
+//     '        it(`should return "${randomName.toLowerCase()}" when passed the string "${randomName.toUpperCase()}"`, function () {\n' +
+//     '            expect(lowerCase(randomName.toUpperCase())).toBe(randomName.toLowerCase());\n' +
+//     '        });\n' +
+//     '        it(`should return "${randomName.toLowerCase()}" when passed the string "${randomName.toLowerCase()}"`, function () {\n' +
+//     '            expect(lowerCase(randomName.toLowerCase())).toBe(randomName.toLowerCase());\n' +
+//     '        });\n' +
+//     '        it(`should return "${firstUpperCaseLetter.toLowerCase()}" when passed the string "${firstUpperCaseLetter}"`, function () {\n' +
+//     '            expect(lowerCase(firstUpperCaseLetter)).toBe(firstUpperCaseLetter.toLowerCase());\n' +
+//     '        });\n' +
+//     '        it(`should return "${firstLowerCaseLetter}" when passed the string "${firstLowerCaseLetter}"`, function () {\n' +
+//     '            expect(lowerCase(firstLowerCaseLetter)).toBe(firstLowerCaseLetter);\n' +
+//     '        });\n' +
+//     '\n' +
+//     '    });',
+//     '',
+// ]
+// console.log(questionTests[0]);
 
 // console.log(practiceQuestions[0]);
 // console.log(practiceQuestions[1]);
@@ -80,7 +109,12 @@ console.log(practiceQuestions)
 
 document.write(`The Practice Question is:
       <br><br>
-      <P style="font-size: 35px; font-weight: bold;">${practiceQuestions[getRandomInt(0, 39)]}</P>`)
+      <P style="font-size: 35px; font-weight: bold;">${practiceQuestions[getRandomInt(0, 39)]}</P>
+      <br><br><br>
+      <p>The test for this problem is:</p>
+      <br><br>
+      <p style="font-size: 35px; font-weight: bold;">'${questionTests[0]}'</p>
+`)
 
 
 
@@ -92,11 +126,6 @@ function getRandomInt(min, max) {
         return num;
     }
 }
-
-
-
-
-
 
 
 
