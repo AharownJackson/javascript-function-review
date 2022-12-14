@@ -63,14 +63,14 @@ let practiceQuestions = [
 // console.log(practiceQuestions[29]);
 
 
-console.log(practiceQuestions)
-
-console.log(practiceQuestions[getRandomInt(0, 29)]);
+// console.log(practiceQuestions)
+//
+// console.log(practiceQuestions[getRandomInt(0, 29)]);
 
 
 document.write(`The Practice Question is:
       <br><br>
-      <P style="font-size: 20px; font-weight: bold;">${practiceQuestions[getRandomInt(0, 29)]}</P>`)
+      <P style="font-size: 35px; font-weight: bold;">${practiceQuestions[getRandomInt(0, 29)]}</P>`)
 
 
 
