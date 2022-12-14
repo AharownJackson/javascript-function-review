@@ -29,6 +29,16 @@ let practiceQuestions = [
     'Define a function named isZero that will return true when passed an argument of the numeric value 0, and return false for all other arguments.',
     'Define a function named isArray that takes in an input and returns a boolean whether or not that input is an array or not.',
     'Define a function named upperCase that takes in a single input. If the input is not a string, return false. If the input is a non-numeric string, then return it with all the letters capitalized.',
+    'Define a function named isGreaterThan that takes in two values and returns a true if the first argument is greater than the second argument otherwise it should return false. If either argument is not a number, return false;',
+    'Define a function named isLessThan that takes in two values and returns a true if the first argument is less than the second argument otherwise it should return false. If either argument is not a number, return false;',
+    'Define a function named isEqualNumber that takes in two values and returns a true if the first argument is equal to the second argument, otherwise it should return false. If either argument is not a number return false.',
+    'Define a function named isEqual that takes in two values and returns a true if the first argument has the same value as the second argument regardless of type, otherwise it should return false.',
+    'Define a function named isNot that accepts a boolean argument and returns the opposite value of the argument. It should return false if the arguments is null or not a boolean.',
+    'Define a function named calcAbs that accepts a number argument and returns the absolute value of the argument. It should return O (zero) if the arguments is null or not a number.',
+    'Define a function named calcCube that accepts a number argument and returns the cubed value of the argument. It should return O (zero) if the arguments is null or not a number.',
+    'Define a function named isTypeMatch that accepts two arguments and returns true if the types of the arguments match. It should return false if either arguments is null.',
+    'Define a function named findLongestString that accepts two string arguments and returns the string with the greatest length. If only one argument is a string, return that argument. If neither arguments are strings, return and empty string.',
+    'Define a function named isFactor that accepts two number arguments and returns true if the first argument is a factor of the second argument. It should return false if either argument is null or not a number. Also return null if the first argument is 0 (zero).'
 ]
 
 // console.log(practiceQuestions[0]);
@@ -63,14 +73,14 @@ let practiceQuestions = [
 // console.log(practiceQuestions[29]);
 
 
-// console.log(practiceQuestions)
+console.log(practiceQuestions)
 //
 // console.log(practiceQuestions[getRandomInt(0, 29)]);
 
 
 document.write(`The Practice Question is:
       <br><br>
-      <P style="font-size: 35px; font-weight: bold;">${practiceQuestions[getRandomInt(0, 29)]}</P>`)
+      <P style="font-size: 35px; font-weight: bold;">${practiceQuestions[getRandomInt(0, 39)]}</P>`)
 
 
 
